@@ -15,7 +15,7 @@ import data from "./dummy-data";
 
 const App = () => {
   const [posts, setPosts] = useState(data)
-  // const [search, setSearch] = useState(data)
+  
   return (
     <div className="App">
       {/* Add imported components here to render them */}
